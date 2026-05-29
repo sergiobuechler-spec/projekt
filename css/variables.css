@@ -1,0 +1,22 @@
+:root {
+  --primary:       #4A5796;
+  --primary-light: #6A739F;
+  --primary-dim:   #e8eaf2;
+  --accent:        #3a4578;
+  --dark:          #000000;
+  --text:          #000000;
+  --text-muted:    #555e82;
+  --bg:            #f0f2f7;
+  --sidebar-bg:    #4A5796;
+  --card-bg:       #ffffff;
+  --border:        #d8dce8;
+  --radius-sm:     6px;
+  --radius-md:     12px;
+  --radius-lg:     18px;
+  --shadow:        0 4px 20px rgba(74, 87, 150, 0.10);
+  --shadow-lg:     0 8px 32px rgba(74, 87, 150, 0.18);
+  --nav-h:         60px;
+  --sidebar-w:     260px;
+  --font-head:     'Sora', sans-serif;
+  --font-body:     'DM Sans', sans-serif;
+}

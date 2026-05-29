@@ -1,0 +1,61 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+a   { color: var(--primary-dim); text-decoration: underline; font-size: 0.82rem; }
+ul  { list-style: none; }
+img { display: block; max-width: 100%; }
+
+.page-wrapper {
+  display: flex;
+  min-height: calc(100vh - var(--nav-h));
+  padding-top: var(--nav-h);
+  max-width: 100%;
+  margin: 0;
+}
+
+.main-content {
+  flex: 1;
+  padding: 44px 40px 60px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.section-tag {
+  font-family: var(--font-head);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-dim);
+  padding: 3px 9px;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+.section-title {
+  font-family: var(--font-head);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-top: -16px;
+  margin-bottom: 28px;
+}

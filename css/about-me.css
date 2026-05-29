@@ -1,0 +1,69 @@
+.about-hero { margin-bottom: 24px; }
+
+.about-name {
+  font-family: var(--font-head);
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.25;
+  color: var(--text);
+}
+
+.about-name strong { font-weight: 700; color: var(--primary); }
+
+.about-divider {
+  width: 48px;
+  height: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+  margin-top: 12px;
+}
+
+.about-bio {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  max-width: 640px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.about-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.about-card h4 {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.about-card ul { display: flex; flex-direction: column; gap: 6px; }
+
+.about-card li {
+  font-size: 0.88rem;
+  color: var(--text);
+  padding-left: 14px;
+  position: relative;
+}
+
+.about-card li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: 700;
+}

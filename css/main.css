@@ -1,0 +1,10 @@
+@import './variables.css';
+@import './default-style.css';
+@import './nav.css';
+@import './side-bar.css';
+@import './responsive.css';
+@import './footer.css';
+@import './contact.css';
+@import './skills.css';
+@import './project.css';
+@import './about-me.css';

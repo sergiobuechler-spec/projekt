@@ -1,0 +1,16 @@
+@media (max-width: 900px) {
+  :root { --sidebar-w: 210px; }
+  .main-content   { padding: 28px 24px 48px; }
+  .skills-grid    { grid-template-columns: 1fr; gap: 20px; }
+  .contact-layout { grid-template-columns: 1fr; }
+  .about-cards    { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 680px) {
+  .sidebar        { display: none; }
+  .nav-link       { padding: 6px 10px; font-size: 0.8rem; }
+  .form-row       { grid-template-columns: 1fr; }
+  .projects-grid  { grid-template-columns: 1fr; }
+  .section-title  { font-size: 1.4rem; }
+  .about-name     { font-size: 1.5rem; }
+}
